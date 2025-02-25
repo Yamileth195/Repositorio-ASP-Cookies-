@@ -20,7 +20,14 @@ namespace _1_ASP_20118803
             Response.Cookies["ddlCategory"].Value = ddlCategory.SelectedValue;
             Response.Cookies["ddlSupplier"].Value = ddlSupplier.SelectedValue;
             Response.Cookies["strProduct"].Value = txtProduct.Text;
-
+            Response.Cookies["strDescription"].Value = txtDescription.Text;
+            Response.Cookies["strImage"].Value = txtImage.Text;
+            Response.Cookies["decPrice"].Value = txtPrice.Text;
+            Response.Cookies["byNumberInStock"].Value = txtNumberInStock.Text;
+            Response.Cookies["byNumberOnOrder"].Value = txtNumberOnOrder.Text;
+            Response.Cookies["byNumberOnOrder"].Value = txtReorderLevel.Text;
+            //Go to the confirmation page.
+            Response.Redirect("ProductConfirmCookies,aspx");
 
         }
 

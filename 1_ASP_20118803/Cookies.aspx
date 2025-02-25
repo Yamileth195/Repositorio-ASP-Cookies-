@@ -29,33 +29,33 @@
             <asp:TextBox ID="txtProduct" runat="server"></asp:TextBox>
         </p>
         <p>
-            <asp:Label ID="Label5" runat="server" Text="Description"></asp:Label>
+            <asp:Label ID="txtDescription" runat="server" Text="Description"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
             <textarea id="TextArea1" cols="20" name="S1" rows="2"></textarea></p>
         <p>
-            <asp:Label ID="Label6" runat="server" Text="Image"></asp:Label>
+            <asp:Label runat="server" Text="Image"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtImage" runat="server"></asp:TextBox>
         </p>
         <p>
             <asp:Label ID="Label7" runat="server" Text="Price"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtPrice" runat="server"></asp:TextBox>
         </p>
         <p>
             <asp:Label ID="Label8" runat="server" Text="Number in Stock"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtNumberInStock" runat="server"></asp:TextBox>
         </p>
         <p>
             <asp:Label ID="Label9" runat="server" Text="Number on Order"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtNumberOnOrder" runat="server"></asp:TextBox>
         </p>
         <p>
             <asp:Label ID="Label10" runat="server" Text="Recorder Level"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtReorderLevel" runat="server"></asp:TextBox>
         </p>
         <p>
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="confirmar" />
