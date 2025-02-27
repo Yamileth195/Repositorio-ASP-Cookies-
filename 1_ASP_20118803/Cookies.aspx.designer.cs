@@ -96,6 +96,15 @@ namespace _1_ASP_20118803
         protected global::System.Web.UI.WebControls.Label txtDescription;
 
         /// <summary>
+        /// Control TextArea1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea TextArea1;
+
+        /// <summary>
         /// Control txtImage.
         /// </summary>
         /// <remarks>
@@ -177,12 +186,12 @@ namespace _1_ASP_20118803
         protected global::System.Web.UI.WebControls.TextBox txtReorderLevel;
 
         /// <summary>
-        /// Control Button1.
+        /// Control btnConfirm.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnConfirm;
     }
 }

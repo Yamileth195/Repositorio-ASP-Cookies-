@@ -17,11 +17,13 @@
             <asp:Label ID="Label2" runat="server" Text="Category"></asp:Label>
 &nbsp;&nbsp;&nbsp;
             <asp:DropDownList ID="ddlCategory" runat="server">
+                <asp:ListItem Value="" Selected Enabled>Footwear - women's</asp:ListItem>
             </asp:DropDownList>
         </p>
         <asp:Label ID="Label3" runat="server" Text="Supplier "></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:DropDownList ID="ddlSupplier" runat="server">
+            <asp:ListItem Value="" Selected Enabled>Nike</asp:ListItem>
         </asp:DropDownList>
         <p>
             <asp:Label ID="Label4" runat="server" Text="Product"></asp:Label>
@@ -31,7 +33,7 @@
         <p>
             <asp:Label ID="txtDescription" runat="server" Text="Description"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
-            <textarea id="TextArea1" cols="20" name="S1" rows="2"></textarea></p>
+            <textarea id="TextArea1" cols="20" name="S1" rows="2" runat="server"></textarea></p>
         <p>
             <asp:Label runat="server" Text="Image"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -58,7 +60,7 @@
             <asp:TextBox ID="txtReorderLevel" runat="server"></asp:TextBox>
         </p>
         <p>
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="confirmar" />
+            <asp:Button ID="btnConfirm" runat="server" OnClick="Button1_Click" Text="confirmar" />
         </p>
     </form>
 </body>
